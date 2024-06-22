@@ -21,7 +21,7 @@
 }
 
 header{
-    background-color: var(--cor0);
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
 
 }
 
@@ -29,11 +29,35 @@ header > h1{
     font-family: var(--font-titulo);
     text-align: center;
     font-weight: bolder;
-    padding: 0px 5px;
+    font-size: 1.2;
+    padding: 5px 0px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.301);
 }
 
 header > h3{
     font-family: var(--font-titulo);
     text-align: center;
-    padding: 0px 10px;
+    max-width: 500px;
+    padding-bottom: 10px;
+    
+}
+
+nav{
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.356);
+}
+
+nav > a {
+    color: var(--cor1);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 0.7;
+}
+
+nav > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor3);
 }
