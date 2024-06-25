@@ -21,7 +21,6 @@
     padding: auto;
 }
 
-
 header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor2) );
 
@@ -65,9 +64,35 @@ nav > a:hover{
     color: var(--cor3);
 }
 
-section.imagem#img{
-    background-image: url('../Imagens/fundo.jpg');
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.096);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
+section.imagem > p{
+    font-family: var(--font-titulo);
+    color: rgb(255, 245, 192);
+    font-size: 3vw;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img{
+    background-image: url('../Imagens/fundo.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 72vh;
+    
+    
+}
+
+
+
 
 
 
