@@ -6,9 +6,10 @@
 :root{
 
     --cor0: #FF6600;
-    --cor1: #CC641E;
-    --cor2: #99582E;
-    --cor3: #664631;
+    --cor1: #FF3900;
+    --cor2: #FF9300;
+    --cor3: #FF0D00;
+    --cor4: #E09A6B;
 
     --font-padrao: 'Arial, Helvetica, sans serif ';
     --font-titulo: "Playwrite PT";
@@ -20,8 +21,9 @@
     padding: auto;
 }
 
+
 header{
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2) );
 
 }
 
@@ -31,7 +33,8 @@ header > h1{
     font-weight: bolder;
     font-size: 1.2;
     padding: 5px 0px;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.301);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.13);
+    color: rgb(255, 245, 192);
 }
 
 header > h3{
@@ -39,11 +42,11 @@ header > h3{
     text-align: center;
     max-width: 500px;
     padding-bottom: 10px;
-    
+    color: rgb(255, 245, 192);
 }
 
 nav{
-    background-color: var(--cor3);
+    background-color: #ffbf66;
     padding: 10px;
     box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.356);
 }
@@ -61,3 +64,11 @@ nav > a:hover{
     background-color: var(--cor2);
     color: var(--cor3);
 }
+
+section.imagem#img{
+    background-image: url('../Imagens/fundo.jpg');
+}
+
+
+
+
