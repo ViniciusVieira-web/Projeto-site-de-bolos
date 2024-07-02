@@ -75,7 +75,7 @@ section.imagem{
 section.imagem > p{
     font-family: var(--font-titulo);
     color: rgb(255, 245, 192);
-    font-size: 3vw;
+    font-size: 2.5vw;
     display: inline-block;
     padding: 10px;
     text-shadow: 2px 2px 0px black;
@@ -86,7 +86,7 @@ section#img{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    min-height: 72vh;
+    min-height: 72.3vh;
     
     
 }
